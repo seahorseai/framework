@@ -1,0 +1,34 @@
+Robot Store - Internal Notes and FAQs
+
+Shipping Policy:
+- Delivery takes 3 to 7 business days within Europe.
+- Free shipping for orders above 500 EUR.
+- International shipping available with additional fees.
+
+Return Policy:
+- Customers can return products within 30 days.
+- Robots must be in original condition.
+- Refunds are processed within 5 business days.
+
+Warranty:
+- All robots come with a 2-year warranty.
+- Warranty covers manufacturing defects only.
+
+FAQ:
+
+Q: Can robots be controlled remotely?
+A: Yes, most robots include a mobile app for remote control.
+
+Q: Do robots require internet?
+A: Some features require internet, but basic functions work offline.
+
+Q: Are the robots safe for children?
+A: Yes, especially the Educational Robot E1, which is designed for kids.
+
+Q: Do you offer technical support?
+A: Yes, 24/7 customer support is available.
+
+Maintenance Notes:
+- Clean sensors regularly for optimal performance.
+- Keep software updated.
+- Store robots in dry environments.

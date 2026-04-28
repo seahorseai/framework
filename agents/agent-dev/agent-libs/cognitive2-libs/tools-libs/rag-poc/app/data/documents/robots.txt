@@ -1,0 +1,37 @@
+Robot Store - Product Catalog
+
+Product: Home Assistant Robot H1
+Description: The H1 is a compact home assistant robot designed to help with daily tasks such as cleaning, reminders, and basic conversation. It includes voice recognition, Wi-Fi connectivity, and smart home integration.
+Price: 899 EUR
+Features:
+- Voice assistant with natural language processing
+- Smart home control (lights, thermostat, security)
+- Autonomous navigation with obstacle detection
+- 8-hour battery life
+
+Product: Security Patrol Robot S2
+Description: The S2 is designed for home and small business security. It patrols predefined routes and detects unusual activity using cameras and sensors.
+Price: 1499 EUR
+Features:
+- Night vision camera
+- Motion detection alerts
+- Mobile app monitoring
+- Automatic charging dock
+
+Product: Educational Robot E1
+Description: The E1 helps children learn programming and robotics basics through interactive lessons and games.
+Price: 299 EUR
+Features:
+- Visual programming interface
+- STEM learning modules
+- Safe materials for kids
+- Bluetooth connectivity
+
+Product: Warehouse Robot W3
+Description: The W3 is built for logistics and warehouse automation, capable of transporting goods efficiently.
+Price: 4999 EUR
+Features:
+- भार capacity up to 100kg
+- Path optimization system
+- Integration with inventory systems
+- 24/7 operation capability

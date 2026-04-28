@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+openai
+faiss-cpu
+numpy
+pydantic
+pydantic-settings
+langgraph
+langchain
+langchain-community
+langchain-core
+langchain-openai
+langchain-text-splitters
+langchain-experimental
