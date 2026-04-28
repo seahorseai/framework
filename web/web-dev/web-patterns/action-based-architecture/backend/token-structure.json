@@ -1,0 +1,27 @@
+{
+    "id_user": "1",
+    "user_role": "admin",
+    "organizations": [
+        {
+            "id_organization": "1",
+            "role": "admin",
+            "projects": [
+                {
+                    "id_project": "3",
+                    "role": "writter",
+                    "boundedContext": [
+                        {
+                            "id_boundedContext": "3",
+                            "role": "admin"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id_organization": 2,
+            "role": "admin"
+        }
+    ],
+    "iat": 1516239022
+}

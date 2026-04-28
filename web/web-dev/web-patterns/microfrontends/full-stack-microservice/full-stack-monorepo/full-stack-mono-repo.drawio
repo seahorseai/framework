@@ -1,0 +1,54 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="6iZxm5ZANNNNg5vItxYR">
+    <mxGraphModel dx="1306" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zdaBn5TpN_4zmrhnIGJ8-11" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="320" height="280" as="geometry">
+            <mxRectangle x="480" y="200" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zdaBn5TpN_4zmrhnIGJ8-12" value="Front end" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="zdaBn5TpN_4zmrhnIGJ8-11">
+          <mxGeometry x="40" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zdaBn5TpN_4zmrhnIGJ8-13" value="Back end" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="zdaBn5TpN_4zmrhnIGJ8-11">
+          <mxGeometry x="40" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zdaBn5TpN_4zmrhnIGJ8-14" value="Shared DTOs" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="zdaBn5TpN_4zmrhnIGJ8-11">
+          <mxGeometry x="200" y="100" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zdaBn5TpN_4zmrhnIGJ8-15" value="Front end" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="520" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zdaBn5TpN_4zmrhnIGJ8-16" value="Back end" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="520" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zdaBn5TpN_4zmrhnIGJ8-17" value="Shared DTOs" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="680" y="180" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zdaBn5TpN_4zmrhnIGJ8-18" value="Full-stack Monorepo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="368" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zdaBn5TpN_4zmrhnIGJ8-19" value="Full-stack multirepo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="580" y="368" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zdaBn5TpN_4zmrhnIGJ8-20" value=".git" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="308" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zdaBn5TpN_4zmrhnIGJ8-25" value=".git" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="700" y="230" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zdaBn5TpN_4zmrhnIGJ8-26" value=".git" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="290" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zdaBn5TpN_4zmrhnIGJ8-27" value=".git" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="170" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zdaBn5TpN_4zmrhnIGJ8-28" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="760" height="360" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

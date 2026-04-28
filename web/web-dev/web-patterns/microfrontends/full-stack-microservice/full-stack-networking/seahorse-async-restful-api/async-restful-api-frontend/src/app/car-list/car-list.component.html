@@ -1,0 +1,13 @@
+<h1>Car List</h1>
+<button (click)="loadCars()">Load cars</button>
+<ul>
+	@for(car of cars | async; track $index) {
+		<li>Car model: {{ car.model }}. Manufacturer: {{ car.manufacturer }}. Year: {{ car.year }} </li>
+	} @empty {
+		@if (userTriedToLoadCars) { <li>Loading...</li> }
+		@else { <li>No cars: try to load them.</li> }
+	}
+</ul>
+<ng-template #loading>
+	<li>Loading...</li>
+</ng-template>

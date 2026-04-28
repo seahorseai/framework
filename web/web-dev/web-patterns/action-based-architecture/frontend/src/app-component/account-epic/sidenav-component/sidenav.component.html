@@ -1,0 +1,23 @@
+<mat-sidenav-container class="sidenav-container">
+	<mat-sidenav #drawer class="sidenav" fixedInViewport [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+		[mode]="(isHandset$ | async) ? 'over' : 'side'" [opened]="(isHandset$ | async) === false">
+		<mat-toolbar>Bounded Context<br>List</mat-toolbar>
+		<bounded-contexts-list/> <bounded-contexts-list/>
+	</mat-sidenav>
+	<mat-sidenav-content>
+		<app-appbar (onHandsetDrawerClick)="drawer.toggle()"></app-appbar>
+	</mat-sidenav-content>
+</mat-sidenav-container>
+		<!-- <mat-toolbar color="accent">
+			@if (isHandset$ | async) {
+			<button type="button" aria-label="Toggle drawer" mat-icon-button (click)="onHandsetDrawerClick.emit(1)">
+				<mat-icon aria-label="Drawer toggle icon">menu</mat-icon>
+			</button>
+			}
+
+			<a mat-button routerLink="../home">Home</a>
+
+			<span class="spacer"></span>
+			@if (!(isHandset$ | async)) {
+			}
+		</mat-toolbar> -->

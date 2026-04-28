@@ -1,0 +1,17 @@
+<h1>Todo List</h1>
+<form (submit)="$event.preventDefault();createTodo(todoInput.value)">
+	<input #todoInput type="text" name="todo" id="todo" required>
+	<input type="submit" value="Add todo">
+</form>
+<ul>
+	@for(todo of todoList | async ; track todo._id) {
+		<li>
+			{{todo.name}}
+			<button (click)="todoToUpdate = todo">Update</button>
+			<button (click)="deleteTodo(todo._id)">Delete</button>
+		</li>
+	}
+</ul>
+@if (todoToUpdate) {
+	<app-todo-update-form [newName]="todoToUpdate.name" (nameChanged)="updateTodo(todoToUpdate._id, $event)"></app-todo-update-form>
+}

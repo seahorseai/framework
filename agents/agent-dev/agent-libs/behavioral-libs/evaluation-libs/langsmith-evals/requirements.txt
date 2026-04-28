@@ -1,0 +1,4 @@
+langsmith
+langchain
+langchain-openai
+langchain-community

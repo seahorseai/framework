@@ -1,0 +1,24 @@
+{
+  "name": "langchaints-agent-poc",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@langchain/core": "^1.1.5",
+    "@langchain/openai": "^1.2.0",
+    "dotenv": "^17.2.3",
+    "langchain": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0",
+    "vitest": "^1.4.0"
+  }
+}

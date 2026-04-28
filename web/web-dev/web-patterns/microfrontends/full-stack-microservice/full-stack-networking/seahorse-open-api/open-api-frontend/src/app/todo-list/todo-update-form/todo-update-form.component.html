@@ -1,0 +1,5 @@
+<form #nameUpdateForm="ngForm" (ngSubmit)="updateName()">
+	<label for="newName">Insert the new name of the todo:</label>
+	<input [(ngModel)]="newName" name="newName" id="newName" type="text" required>
+	<input type="submit" value="Update" [disabled]="nameUpdateForm.invalid!">
+</form>

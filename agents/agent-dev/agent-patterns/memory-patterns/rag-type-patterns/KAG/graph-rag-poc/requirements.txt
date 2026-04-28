@@ -1,0 +1,5 @@
+langchain
+neo4j
+wikipedia
+langchain-openai
+python-dotenv

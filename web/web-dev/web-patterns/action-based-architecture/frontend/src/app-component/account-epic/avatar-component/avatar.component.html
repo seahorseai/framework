@@ -1,0 +1,25 @@
+<button
+mat-button
+[matMenuTriggerFor]="avatarMenu"
+>
+	<mat-icon>account_circle</mat-icon>
+</button>	
+<mat-menu #avatarMenu xPosition="before">
+	@if(user) {
+		<!-- <mat-toolbar>User data</mat-toolbar> -->
+		<div mat-menu-item>
+			<mat-icon>person</mat-icon>
+			<span>{{user.username}}</span>
+		</div>
+		<div mat-menu-item>
+			<mat-icon>mail</mat-icon>
+			<span>{{user.email}}</span>
+		</div>
+		<mat-divider></mat-divider>
+		<button mat-menu-item>Log out</button>
+	} @else {
+		<div mat-menu-item>
+      <mat-spinner />
+    </div>
+	}
+</mat-menu>

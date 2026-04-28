@@ -1,0 +1,14 @@
+<h1>Book List</h1>
+<ul>
+	@for (bookFromList of books; track $index) {
+		<li>
+			<app-book [book]="bookFromList" (onDeleteBook)="deleteBook($event._id)"></app-book>
+		</li>
+	}
+</ul>
+
+<form (submit)="addBook()">
+    <input [(ngModel)]="newBook.title" name="Title" placeholder="Title" required />
+    <input [(ngModel)]="newBook.author" name="Author" placeholder="Author" required />
+    <button type="submit">Add Book</button>
+</form>

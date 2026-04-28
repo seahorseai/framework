@@ -1,0 +1,132 @@
+# ------------------------------
+# Python
+# ------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.conda/
+*.conda
+*.env
+*.venv
+
+# PyInstaller
+*.manifest
+*.spec
+
+# C extensions
+*.c
+*.cpp
+*.ipynb_checkpoints
+
+# ------------------------------
+# Jupyter
+# ------------------------------
+.ipynb_checkpoints/
+.jupyter/
+.profile_default/
+*.nbconvert.ipynb
+
+# Jupyter Lab plugin state
+.lab/
+.jupyterlab-settings/
+.local/share/jupyter/
+
+# ------------------------------
+# VS Code
+# ------------------------------
+.vscode/
+.history/
+*.code-workspace
+
+# ------------------------------
+# LangChain / LangGraph / LangSmith
+# ------------------------------
+# LangSmith tracing artifacts
+.langsmith/
+langsmith.db
+langsmith_logs/
+
+# LangChain cache / temp
+.lc_cache/
+.langchain/
+langchain.db
+
+# LangGraph artifacts
+.langgraph/
+langgraph.db
+graph_runs/
+
+# ------------------------------
+# OS / Misc
+# ------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+
+#-------------------------------------
+# Spring boot
+# ------------------------------------
+
+*#
+*.iml
+*.ipr
+*.iws
+*.jar
+*.sw?
+*~
+.#*
+.*.md.html
+.DS_Store
+.attach_pid*
+.classpath
+.factorypath
+.gradle
+.metadata
+.project
+.recommenders
+.settings
+.springBeans
+.vscode
+/code
+MANIFEST.MF
+_site/
+activemq-data
+bin
+build
+!/**/src/**/bin
+!/**/src/**/build
+build.log
+dependency-reduced-pom.xml
+dump.rdb
+interpolated*.xml
+lib/
+manifest.yml
+out
+overridedb.*
+target
+.flattened-pom.xml
+secrets.yml
+.gradletasknamecache
+.sts4-cache
+.git-hooks/
+node_modules
+/.kotlin/
+
