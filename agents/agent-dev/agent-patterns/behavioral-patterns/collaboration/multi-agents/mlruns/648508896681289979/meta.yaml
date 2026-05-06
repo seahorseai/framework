@@ -1,0 +1,8 @@
+artifact_location: file:///Users/jaimegomez/Documents/tech/lab/comenia-agents/mlruns/648508896681289979
+creation_time: 1776098688100
+experiment_id: '648508896681289979'
+last_update_time: 1776098688100
+lifecycle_stage: active
+name: langgraph-agent-experiment
+trace_location: null
+workspace: default

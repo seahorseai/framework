@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/jaimegomez/Documents/tech/lab/comenia-agents/mlruns/648508896681289979/5bfaf469db554eb09bfa102083747ef8/artifacts
+end_time: 1776098821189
+entry_point_name: ''
+experiment_id: '648508896681289979'
+lifecycle_stage: active
+run_id: 5bfaf469db554eb09bfa102083747ef8
+run_name: langgraph-run
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776098810193
+status: 3
+tags: []
+user_id: jaimegomez

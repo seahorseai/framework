@@ -1,0 +1,30 @@
+Certainly! Below is a Python implementation of the quicksort algorithm. The function `quicksort` takes a list as an argument and sorts it in ascending order.
+
+```python
+def quicksort(arr):
+    if len(arr) <= 1:
+        return arr
+    else:
+        pivot = arr[len(arr) // 2]  # Choose the middle element as the pivot
+        left = [x for x in arr if x < pivot]  # Elements less than the pivot
+        middle = [x for x in arr if x == pivot]  # Elements equal to the pivot
+        right = [x for x in arr if x > pivot]  # Elements greater than the pivot
+        return quicksort(left) + middle + quicksort(right)  # Recursively sort and combine
+
+# Example usage:
+if __name__ == "__main__":
+    sample_list = [3, 6, 8, 10, 1, 2, 1]
+    sorted_list = quicksort(sample_list)
+    print("Sorted list:", sorted_list)
+```
+
+### Explanation:
+1. **Base Case**: If the list has one or no elements, it is already sorted, so we return it.
+2. **Choosing a Pivot**: We select the middle element of the list as the pivot.
+3. **Partitioning**: We create three lists:
+   - `left`: contains elements less than the pivot.
+   - `middle`: contains elements equal to the pivot.
+   - `right`: contains elements greater than the pivot.
+4. **Recursive Sorting**: We recursively apply the `quicksort` function to the `left` and `right` lists and concatenate the results with the `middle` list.
+
+This implementation is simple and demonstrates the core concept of the quicksort algorithm.
